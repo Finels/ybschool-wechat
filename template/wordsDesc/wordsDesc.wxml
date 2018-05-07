@@ -1,0 +1,17 @@
+<template name="worsDesc">
+  <view class='container'>
+
+    <view class='content_view'>
+
+      <view class='title_view'>
+        <view class='blue_zone' />
+        <text class='title'>{{pageTitle}}</text>
+      </view>
+      <view class='content_box'>
+        <text class='content' decode='true'>&emsp;&emsp;{{content}}</text>
+      </view>
+
+    </view>
+
+  </view>
+</template>

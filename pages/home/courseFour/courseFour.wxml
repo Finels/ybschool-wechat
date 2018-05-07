@@ -1,0 +1,18 @@
+<!--pages/home/courseFour/courseFour.wxml-->
+<view class='container'>
+
+  <view class='content_view'>
+
+    <view class='title_view'>
+      <view class='blue_zone' />
+      <text class='title'>科目四</text>
+    </view>
+    <view class='content_box'>
+      <text class='content' decode='true'>&emsp;科目四又名安全文明驾驶常识考试，主要考核内容包括：安全文明驾驶操作要求、恶劣气象和复杂道路条件下的安全驾驶知识、爆胎等紧急情况下的临危处置方法以及发生交通事故后的处置知识等内容。</text>
+       <text class='content' decode='true'>&emsp;考试试卷由50道题目组成，题目以案例、图片、动画等形式为主，题型为判断题、单项选择题和多项选择题，满分100分，90分合格。</text>
+     
+    </view>
+
+  </view>
+
+</view>

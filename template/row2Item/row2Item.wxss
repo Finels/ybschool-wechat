@@ -1,0 +1,26 @@
+.box {
+  background: white;
+}
+
+.row2Item_view {
+  display: flex;
+  flex-direction: row;
+}
+
+.row_item_view {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 0;
+  border: 1px solid #eee;
+}
+
+.row_item_img {
+  margin-right: 10px;
+}
+
+.row_item_title {
+  margin-left: 10px;
+}

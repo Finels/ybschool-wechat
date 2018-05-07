@@ -1,0 +1,37 @@
+/**app.wxss**/
+
+page {
+  background-color: #f8f8f8;
+  height: 100%;
+  font-size: 32rpx;
+  line-height: 1.6;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background-color: #f8f8f8;
+  justify-content: space-between;
+  font-size: 32rpx;
+  font-family: -apple-system-font, Helvetica Neue, Helvetica, sans-serif;
+}
+
+.blue_zone {
+  background: #18b4ed;
+  width: 10px;
+  height: 30px;
+  margin-left: 10px;
+}
+
+.small_text {
+  font-size: 16px;
+}
+
+.middle_text {
+  font-size: 18px;
+}
+
+.large_text {
+  font-size: 20px;
+}

@@ -1,0 +1,46 @@
+<!--home.wxml-->
+<import src="../../template/row2Item/row2Item.wxml" />
+
+<view style=" overflow-x: hidden; overflow-y: auto;" class='container'>
+
+  <view class='logo_view'>
+    <image src='../../images/logo.png' style='width:80vw;height:40vw' class='logo_img'></image>
+  </view>
+
+
+  <view class='gridViewStyle'>
+    <gridView gridViewData='{{gridViewData}}' itemWidth='33' itemImgWidth='100' itemImgHeight='100' bind:clickItem="_clickItem" />
+  </view>
+
+  <view class='box'>
+
+    <view class='row2Item_view'>
+      <view class='row_item_view' bindtap='clickCourse' data-type='1'>
+        <image src='../../images/home/course_one.png' style='width:100rpx;height:100rpx;' class='row_item_img' />
+        <text class='row_item_title'>科目一</text>
+      </view>
+      <view class='row_item_view' bindtap='clickCourse' data-type='2'>
+        <image src='../../images/home/course_two.png' style='width:100rpx;height:100rpx;' class='row_item_img' />
+        <text class='row_item_title'>科目二</text>
+      </view>
+    </view>
+
+    <view class='row2Item_view'>
+      <view class='row_item_view' bindtap='clickCourse' data-type='3'>
+        <image src='../../images/home/course_three.png' style='width:100rpx;height:100rpx;' class='row_item_img' />
+        <text class='row_item_title'>科目三</text>
+      </view>
+      <view class='row_item_view' bindtap='clickCourse' data-type='4'>
+        <image src='../../images/home/course_four.png' style='width:100rpx;height:100rpx;' class='row_item_img' />
+        <text class='row_item_title'>科目四</text>
+      </view>
+    </view>
+
+  </view>
+
+  <view class='blank_view' />
+
+  <!-- <template is="row2Item" data='{{rowData}}'/> -->
+
+
+</view>

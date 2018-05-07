@@ -1,0 +1,30 @@
+/* components/gridView/gridView.wxss */
+
+
+.gridView_container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.gridView_item {
+  /* width:33vw; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  box-sizing: border-box;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  
+}
+
+.item_img {
+  width: 30vw;
+  height: 100px;
+}
+
+.item_name {
+  padding-top: 10px;
+}

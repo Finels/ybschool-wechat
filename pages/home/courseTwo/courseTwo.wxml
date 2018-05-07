@@ -1,0 +1,38 @@
+<!--pages/home/courseTwo/courseTwo.wxml-->
+<view class='container'>
+
+  <view class='content_view'>
+
+    <view class='title_view'>
+      <view class='blue_zone' />
+      <text class='title'>科目二</text>
+    </view>
+    <view class='content_box'>
+      <text class='content' decode='true'>标准对比</text>
+      <text class='content' decode='true'>&emsp;一、倒车入库：</text>
+      <text class='content' decode='true'>&emsp;&emsp;1)不按规定路线、顺序行驶的，不合格;</text>
+      <text class='content' decode='true'>&emsp;&emsp;2)车身出线的，不合格;</text>
+      <text class='content' decode='true'>&emsp;&emsp;3)倒库不入的，不合格;</text>
+      <text class='content' decode='true'>&emsp;&emsp;4)中途停车的，不合格;</text>
+      <text class='content' decode='true'>&emsp;&emsp;5)超过4分钟，不合格。</text>
+      <text class='content' decode='true'>&emsp;二、坡道定点停车和起步：</text>
+      <text class='content' decode='true'>&emsp;;&emsp;1)增加起步时间超过规定时间的，不合格;</text>
+      <text class='content' decode='true'>&emsp;&emsp;2)将车辆停止后，汽车前保险杠或者摩托车前轴未定于桩杆线上，且前后不超过50cm，扣20分改为扣10分;</text>
+      <text class='content' decode='true'>&emsp;&emsp;3)将车辆停止后，车身距离路边缘线30CM以上，扣20分改为扣10分;;</text>
+      <text class='content' decode='true'>&emsp;&emsp;4)坡道起步时，起步超过30秒，不合格。</text>
+      <text class='content' decode='true'>&emsp;三、侧方停车：</text>
+      <text class='content' decode='true'>&emsp;&emsp;1)增加中途停车的，不合格;</text>
+      <text class='content' decode='true'>&emsp;&emsp;2)删除碰擦桩杆.不合格。因为新的场地标准中已经将恻方停生中的桩杆取消。</text>
+      <text class='content' decode='true'>&emsp;四、曲线行驶</text>
+      <text class='content' decode='true'>&emsp;&emsp;1)删除车轮驶出边缘线，不合格;</text>
+      <text class='content' decode='true'>&emsp;&emsp;2)将车轮轧路边缘线，每次扣20分调整为车轮轧道路边缘线，不合格;</text>
+      <text class='content' decode='true'>&emsp;&emsp;3)增加中途车停车的，不合格。</text>
+      <text class='content' decode='true'>&emsp;五、直角转弯</text>
+      <text class='content' decode='true'>&emsp;&emsp;1)删除车轮驶出边缘线，不合格;</text>
+      <text class='content' decode='true'>&emsp;&emsp;2)将车轮轧路边缘线，每次扣20分调整为车轮轧道路边缘线，不合格;</text>
+      <text class='content' decode='true'>&emsp;&emsp;3)增加中途停车的，不合格。</text>
+    </view>
+
+  </view>
+
+</view>

@@ -1,0 +1,60 @@
+/**home.wxss**/
+@import "../../template/row2Item/row2Item.wxss";
+
+/* page {
+  height: 100%;
+  flex: 1;
+  background: #f1f2f1;
+} */
+
+.logo_view {
+ display: flex;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  padding: 10px 0;
+}
+
+.gridViewStyle {
+  display: flex;
+  flex: 0.6;
+  margin: 10px 0;
+  background: white;
+  align-items: center;
+}
+
+.box {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  background: white;
+}
+
+.row2Item_view {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+}
+
+.row_item_view {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 0;
+  border: 1px solid #eee;
+}
+
+.row_item_img {
+  margin-right: 10px;
+}
+
+.row_item_title {
+  margin-left: 10px;
+}
+
+.blank_view{
+  display: flex;
+  flex: 0.05
+}

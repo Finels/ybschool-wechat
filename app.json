@@ -1,0 +1,60 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/logs/logs",
+    "pages/demeanor/demeanor",
+    "pages/order/order",
+    "pages/user/user",
+    "pages/home/coursePage/coursePage",
+    "pages/demeanor/placeShow/placeShow",
+    "pages/user/register/register",
+    "pages/order/orderWebView/orderWebView",
+    "pages/home/schoolDesc/schoolDesc",
+    "pages/home/teachProcess/teachProcess",
+    "pages/home/signNotice/signNotice",
+    "pages/home/courseOne/courseOne",
+    "pages/home/courseTwo/courseTwo",
+    "pages/home/courseThree/courseThree",
+    "pages/home/courseFour/courseFour"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "networkTimeout": {
+    "request": 20000,
+    "connectSocket": 20000,
+    "uploadFile": 20000,
+    "downloadFile": 20000
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "iconPath": "images/tabIcon/tabIcon_home_default.png",
+        "selectedIconPath": "images/tabIcon/tabIcon_home_select.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/demeanor/demeanor",
+        "iconPath": "images/tabIcon/tabIcon_car2_default.png",
+        "selectedIconPath": "images/tabIcon/tabIcon_car2_select.png",
+        "text": "驾校风采"
+      },
+      {
+        "pagePath": "pages/order/order",
+        "iconPath": "images/tabIcon/tabIcon_order_default.png",
+        "selectedIconPath": "images/tabIcon/tabIcon_order_select.png",
+        "text": "预约"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "iconPath": "images/tabIcon/tabIcon_my_default.png",
+        "selectedIconPath": "images/tabIcon/tabIcon_my_select.png",
+        "text": "我的"
+      }
+    ]
+  }
+}

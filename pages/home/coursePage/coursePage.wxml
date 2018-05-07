@@ -1,0 +1,22 @@
+<!--pages/home/coursePage/coursePage.wxml-->
+<view class='container'>
+
+  <view class='content_view'>
+
+    <view class='title_view'>
+      <view class='blue_zone' />
+      <text class='title'>科目一</text>
+    </view>
+    <view class='content_box'>
+      <text class='content' decode='true'>&emsp;(一)考试内容</text>
+      <text class='content' decode='true'>&emsp;&emsp;1、道路交通安全法律、法规和规章；</text>
+      <text class='content' decode='true'>&emsp;&emsp;{{content}}</text>
+      <text class='content' decode='true'>&emsp;&emsp;{{content}}</text>
+      <text class='content' decode='true'>&emsp;&emsp;{{content}}</text>
+      <text class='content' decode='true'>&emsp;&emsp;{{content}}</text>
+      <text class='content' decode='true'>&emsp;&emsp;{{content}}</text>
+    </view>
+
+  </view>
+
+</view>

@@ -1,0 +1,12 @@
+<!--components/gridView/gridView.wxml-->
+
+<!-- <template name="gridView"> -->
+<view class='gridView_container'>
+  <block wx:for="{{gridViewData}}" wx:for-item="item" wx:key="idx" wx:for-index="idx">
+    <view class='gridView_item' style='width:{{itemWidth}}vw' data-item='{{item}}' data-index='{{idx}}' bindtap='_clickItem'>
+      <image class='item_img' style='width:{{itemImgWidth}}rpx;height:{{itemImgHeight}}rpx' src='{{item.pic_url}}' mode='scaleToFill'/>
+      <view class='item_name'>{{item.name}}</view>
+    </view>
+  </block>
+</view>
+<!-- </template> -->

@@ -1,0 +1,30 @@
+/* pages/home/courseThree/courseThree.wxss */
+
+.content_view {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  padding: 10px;
+  background: white;
+}
+
+.title_view {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.title {
+  margin-left: 20px;
+  font-size: 16px;
+}
+
+.content_box {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  font-size: 16px;
+}

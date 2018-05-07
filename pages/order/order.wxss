@@ -1,0 +1,149 @@
+/* pages/order/order.wxss */
+
+page {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  background: #f8f8f8;
+  height: 100%;
+}
+
+/* tab 标签开始  */
+
+.swiper-tab {
+  width: 100%;
+  border-bottom: 2rpx solid #777;
+  text-align: center;
+  line-height: 80rpx;
+}
+
+.swiper-tab-list {
+  font-size: 30rpx;
+  display: inline-block;
+  width: 50%;
+  color: #777;
+}
+
+.on {
+  color: #da7c0c;
+  border-bottom: 5rpx solid #da7c0c;
+}
+
+.swiper-box {
+  display: flex;
+  flex: 1;
+  /* height: 100%; */
+  width: 100%;
+  /* overflow: hidden; */
+  background: #f8f8f8;
+}
+
+/* tab 标签结束  */
+
+/* 预约训练开始  */
+
+.outer {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.section {
+  padding-top: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.section_title {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  padding: 5px 0 5px 15px;
+  align-items: center;
+}
+
+.image {
+  width: 22px;
+  height: 22px;
+}
+
+.title {
+  font-size: 16px;
+  color: #999;
+  margin-left: 10px;
+}
+
+.picker {
+  background: white;
+  padding: 8px 15px;
+  font-size: 16px;
+}
+
+.select_content {
+  color: red;
+}
+
+.btn_view {
+  display: flex;
+  flex-direction: row;
+  background: white;
+  width: 100%;
+  /* margin-top: 15px; */
+  position: absolute;
+  bottom: 0;
+}
+
+.btn_view_item {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  border: 1px solid #f1f2f1;
+  padding: 5px 0;
+}
+
+.btn_text {
+  text-align: center;
+}
+
+.text_confirm {
+  color: #1aa7f2;
+}
+
+/* 预约训练结束  */
+
+/* 预约考试开始  */
+
+.item {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.text_title {
+  font-weight: bold;
+}
+
+.text_url {
+  padding: 10px;
+  text-underline-position: below;
+}
+
+.tips {
+  padding: 10px 10px 30px 10px;
+}
+
+.tips .tipText {
+  color: red;
+  font-size: 16px;
+}
+
+.tipContent {
+  font-size: 16px;
+}
+
+.itemTips {
+  color: red
+}
+
+/* 预约考试结束  */

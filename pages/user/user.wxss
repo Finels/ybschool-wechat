@@ -1,0 +1,78 @@
+/* pages/personCenter/personCenter.wxss */
+
+.register {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 0;
+  background: white;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #000;
+  font-size: 16px;
+}
+
+.orderList {
+  /* margin-top: 15px; */
+  display: flex;
+  flex-direction: column;
+  background: white;
+}
+
+.header {
+  display: flex;
+  flex: 1;
+  /* justify-content: center; */
+  align-items: center;
+  background: #f8f8f8;
+  padding: 10px 0 10px 10px;
+}
+
+.title {
+  margin-left: 15px;
+}
+
+.item {
+  width: 94%;
+  margin-left: 3% ;
+  margin-top: 12px;
+  margin-bottom: 15px;
+  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.1), 0 6px 10px 0 rgba(0, 0, 0, 0.1);
+}
+
+.item_content {
+  display: flex;
+  flex-direction: row;
+  padding: 5px 0;
+}
+
+.item_title {
+  flex: 1;
+  text-align: center;
+  font-size: 14px;
+}
+
+.item_value {
+  flex: 2;
+  font-size: 14px;
+}
+
+.noOrder{
+  padding: 15px 0;
+  text-align: center;
+}

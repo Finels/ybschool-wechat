@@ -1,0 +1,20 @@
+<!--grdiView  -->
+
+<template name="row2Item">
+
+  <view class='box'>
+
+    <view class='row2Item_view'>
+      <view class='row_item_view' bindtap='this.triggerEvent("clickItem")'>
+        <image src='{{rowData.imgUrl_one}}' style='width:100rpx;height:100rpx;' class='row_item_img' />
+        <text class='row_item_title'>{{rowData.title_one}}</text>
+      </view>
+      <view class='row_item_view'>
+        <image src='{{rowData.imgUrl_two}}' style='width:100rpx;height:100rpx;' class='row_item_img' />
+        <text class='row_item_title'>{{rowData.title_two}}</text>
+      </view>
+    </view>
+
+  </view>
+
+</template>

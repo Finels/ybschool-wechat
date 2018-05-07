@@ -1,0 +1,12 @@
+<!--components/modal/modal.wxml-->
+<view hidden="{{!isShow}}">
+    <view class="ys-mask"></view>
+    <view class="ys-dialog">
+        <view class="ys-dialog-title">{{title}}</view>
+        <view class="ys-dialog-content">{{content}}</view>
+        <view class="ys-dialog-bottom">
+            <view class="ys-dialog-btn" wx:if="{{noCancel}}" catchtap="_cancelEvent">{{cancelText}}</view>
+            <view class="ys-dialog-btn ys-dialog-ok-btn" catchtap="_okEvent">{{okText}}</view>
+        </view>
+    </view>
+</view>

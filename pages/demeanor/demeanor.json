@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "驾校风采",
+  "usingComponents": {
+    "gridView": "/components/gridView/gridView",
+    "Swiper": "/components/Swiper/Swiper"
+  }
+}

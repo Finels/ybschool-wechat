@@ -1,0 +1,30 @@
+<!--pages/home/courseThree/courseThree.wxml-->
+<view class='container'>
+
+  <view class='content_view'>
+
+    <view class='title_view'>
+      <view class='blue_zone' />
+      <text class='title'>科目三</text>
+    </view>
+    <view class='content_box'>
+      <text class='content' decode='true'>科目三考试操作要求</text>
+      <text class='content' decode='true'>&emsp;1、上车准备:绕车一周，观察车辆外观和周围环境，确认安全。打开车门前应观察后方交通情况。</text>
+      <text class='content' decode='true'>&emsp;　2、起步: 起步前检查车门是否完全关闭，调整座椅、后视镜，系好安全带，检查驻车制动器、挡位，启动发动机。检查仪表，观察内、外后视镜，侧头观察后方交通情况，开启转向灯，挂挡，松驻车制动，起步。起步过程平稳、无闯动、无后溜，不熄火。</text>
+      <text class='content' decode='true'>&emsp;3、直线行驶:根据道路情况合理控制车速，正确使用挡位，保持直线行驶，跟车距离适当，行驶过程中适时观察内、外后视镜，视线不得离开行驶方向超过2s。</text>
+      <text class='content' decode='true'>&emsp;4、加减档位操作:根据路况和车速，合理加减挡，换挡及时、平顺。</text>
+      <text class='content' decode='true'>&emsp;5、变更车道：变更车道前，正确开启转向灯，通过内、外后视镜观察后方道路交通情况，确认安全后变更车道，变更车道完毕关闭转向灯。变更车道时，判断车辆安全距离，控制行驶速度，不得妨碍其他车辆正常行驶。</text>
+      <text class='content' decode='true'>&emsp;6、靠边停车：开启右转向灯，通过内、外后视镜观察后方和右侧交通情况。减速，向右转向靠边，平稳停车。拉紧驻车制动器，关闭转向灯。停车后，车身距离道路右侧边缘线或者人行道边缘30cm以内。</text>
+      <text class='content' decode='true'>&emsp;7、直行通过路口、路口左转弯、路口右转弯：合理观察交通情况，减速或停车瞭望，根据车辆行驶方向选择相关车道，正确使用转向灯，根据不同路口采取正确的操作方法，安全通过路口。</text>
+      <text class='content' decode='true'>&emsp;8、通过人行横道线：减速，观察两侧交通情况，确认安全后，合理控制车速通过，遇行人停车让行。</text>
+      <text class='content' decode='true'>&emsp;9、通过学校区域：提前减速至30km/h以下，观察情况，文明礼让，确保安全通过，遇有学生横过马路时应停车让行。</text>
+      <text class='content' decode='true'>&emsp;10、通过公共汽车站：提前减速，观察公共汽车进、出站动态和乘客上下车动态，着重注意同向公共汽车前方或对向公共汽车后方有无行人横穿道路。</text>
+      <text class='content' decode='true'>&emsp;11、会车：正确判断会车地点，会车有危险时，控制车速，提前避让，调整会车地点，会车时与对方车辆保持安全间距。</text>
+      <text class='content' decode='true'>&emsp;12、超车：超车前，保持与被超越车辆的安全跟车距离。观察左侧交通情况,开启左转向灯，选择合理时机，鸣喇叭或交替使用远近光灯，从被超越车辆的左侧超越。超车时，侧头观察被超越车辆的动态，保持横向安全距离。超越后，在不影响被超越车辆正常行驶的情况下，开启右转向灯，逐渐驶回原车道，关闭转向灯。</text>
+      <text class='content' decode='true'>&emsp;13、掉头：降低车速，观察交通情况，正确选择掉头地点和时机，发出掉头信号后掉头。掉头时不妨碍其他车辆和行人的正常通行。</text>
+      <text class='content' decode='true'>&emsp;14、夜间行驶：起步前开启前照灯。行驶中正确使用灯光。无照明、照明不良的道路使用远光灯;照明良好的道路、会车、路口转弯、近距离跟车等情况，使用近光灯。超车、通过急弯、坡路、拱桥、人行横道或者没有交通信号灯控制的路口时，应当交替使用远近光灯示意。</text>
+
+    </view>
+
+  </view>
+</view>

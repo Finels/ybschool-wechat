@@ -1,0 +1,22 @@
+<!--components/Swiper/Swiper.wxml-->
+
+<!--
+  indicator-dots	 是否显示面板指示点  Boolean
+  autoplay  是否自动切换    Boolean
+  current   当前所在滑块的index   Number
+  interval  自动切换时间间隔  Number
+  duration  滑动动画时长  Number
+  circular  是否采用衔接滑动  Boolean
+  vertical  滑动方向是否为纵向 Boolean
+  bindchange  current 改变时会触发 change 事件，event.detail = {current: current, source: source}  EventHandle
+-->
+
+<!-- <template name="mySwiper"> -->
+<swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" style='height:{{Hei}}'>
+  <block wx:for="{{imgUrls}}" wx:key='unqie' wx:for-item="item">
+    <swiper-item>
+      <image src="{{item}}" class="slide-image" mode='widthFix' bindload='imgH' style='width:{{imgWidth}}vw;margin:{{margin}}vw' />
+    </swiper-item>
+  </block>
+</swiper>
+<!-- </template> -->

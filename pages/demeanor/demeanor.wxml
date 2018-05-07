@@ -1,0 +1,39 @@
+<!--pages/schoolDemeanor/schoolDemeanor.wxml-->
+
+
+
+<view class="box">
+
+  <view class='logo_view'>
+    <image src='../../images/logo.png' style='width:80vw;height:40vw' class='logo_img'></image>
+  </view>
+
+
+  <view class='item_header'>
+    <view class='blue_zone' />
+    <text class='title'>场地展示</text>
+  </view>
+
+  <view class='gridView'>
+    <gridView gridViewData='{{gridViewData}}' itemWidth='50' itemImgWidth='300' itemImgHeight='150' bind:clickItem="_clickPlaceItem" />
+  </view>
+
+  <view class='item_header'>
+    <view class='blue_zone' />
+    <text class='title'>教练风采</text>
+  </view>
+
+  <view class='gridView'>
+    <gridView gridViewData='{{coachData}}' itemWidth='50' itemImgWidth='300' itemImgHeight='300' bind:clickItem="previewImage" />
+  </view>
+
+
+  <view class='item_header'>
+    <view class='blue_zone' />
+    <text class='title'>学员风采</text>
+  </view>
+  <view class='gridView'>
+    <gridView gridViewData='{{gridViewData}}' itemWidth='50' itemImgWidth='300' itemImgHeight='150' bind:clickItem="previewImage" />
+  </view>
+
+</view>

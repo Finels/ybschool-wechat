@@ -1,0 +1,36 @@
+<!--pages/user/register/register.wxml-->
+<view class='container'>
+
+  <view class='page-body'>
+
+    <view class="warning_box">
+      <text class='warning'>** 为了数据的准确性，请如实填写以下信息！</text>
+    </view>
+
+    <view class="section">
+      <view class="section-title">姓名</view>
+      <view class="section-input">
+        <input class="input-style" name="userNameInput" bindinput='changeUserName' placeholder="请输入姓名" />
+      </view>
+    </view>
+
+    <view class="section">
+      <view class="section-title">手机号</view>
+      <view class="section-input">
+        <input class="input-style" type='number' name="phoneInput" bindinput='changePhone' placeholder="请输入手机号码" />
+      </view>
+    </view>
+
+    <radio-group class="radio-group" bindchange="radioChange">
+      <label class="radio" wx:for="{{licenseTypeData}}" wx:for-item='item' wx:key='id'>
+        <radio value="{{item.value}}" />{{item.name}}
+      </label>
+    </radio-group>
+
+    <view class="btn-area">
+      <button type="primary" bindtap='submitFn'>提交</button>
+    </view>
+
+  </view>
+
+</view>

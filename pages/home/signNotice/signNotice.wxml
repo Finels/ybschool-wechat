@@ -1,0 +1,19 @@
+<!--pages/home/signNotice/signNotice.wxml-->
+<view class='container'>
+
+  <view class='content_view'>
+
+    <view class='title_view'>
+      <view class='blue_zone' />
+      <text class='title'>报名须知</text>
+    </view>
+    <view class='content_box'>
+      <text class='content' decode='true'>&emsp;&emsp; 一、满18周岁至70周岁、身高150cm(小货155cm)以上，视力不低于0.7(可矫正)辩色力正常，身体运动能力正常。</text>
+      <text class='content' decode='true'>&emsp;&emsp; 二、本市学员必须携带有效身份证原件，外省市学员必须携带有效的暂住证、居住证或蓝印户口及身份证原件。</text>
+      <text class='content' decode='true'>&emsp;&emsp; 三、体检合格后凭《机动车驾驶证申请表》和《机动车驾驶人身体条件证明》以及身份证到各区所在地的交警支队宣传科领取《机动车驾驶证申请表副表》后，再缴还驾校。</text>
+      <text class='content' decode='true'>&emsp;&emsp; 四、原有E照、F照的加考学员须具备初领驾驶证一年以上的条件，另须携带原驾驶证复印件、原驾驶证副表(到户籍所在区、县交警支队宣传科抽取底卡)。</text>
+    </view>
+
+  </view>
+
+</view>

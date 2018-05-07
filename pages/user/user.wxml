@@ -1,0 +1,69 @@
+<!--pages/personCenter/personCenter.wxml-->
+
+
+
+
+<view class="container">
+
+  <view wx:if="{{hasLogin}}" class='user_center'>
+
+    <view class="userinfo">
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+      <text class="userinfo-nickname">您好，{{userInfo.nickName}}</text>
+    </view>
+
+    <view class='orderList'>
+
+      <view class='header'>
+        <image src="../../images/user/icon_order.png" style='width:64rpx;height:64rpx;'></image>
+        <text class='title'>我的预约</text>
+      </view>
+
+      <view wx:if='{{orderData.length!==0}}'>
+        <block wx:for="{{orderData}}" wx:for-item="item" wx:key='id'>
+
+          <template is="listItem" data="{{item}}" />
+
+        </block>
+        <!-- <view style='height:30px;'/> -->
+      </view>
+
+
+      <view wx:else class='noOrder'>暂无预约信息！</view>
+
+    </view>
+
+  </view>
+
+  <view wx:else class='register'>
+    <button class='info' bindtap='registerFn'> 您还未注册，点击前往注册 </button>
+  </view>
+
+
+
+  <!-- <text class="fa fa-2x fa-flag red">11</text>
+  <button class='info' bindtap='testLogin'>Login </button>
+  <button class='info' bindtap='testReq'> {{testReq}} </button> -->
+
+</view>
+
+<template name="listItem">
+  <view class='item'>
+
+    <view class='item_content'>
+      <text class='item_title'>科目</text>
+      <text class='item_value'>{{item.stage}}</text>
+    </view>
+
+    <view class='item_content'>
+      <text class='item_title'>教练</text>
+      <text class='item_value'>{{item.traineeName}}</text>
+    </view>
+
+    <view class='item_content'>
+      <text class='item_title'>时间</text>
+      <text class='item_value'>{{item.appointmentDate+' '+item.timeIntervalDesc}}</text>
+    </view>
+
+  </view>
+</template>

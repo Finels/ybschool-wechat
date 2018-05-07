@@ -1,0 +1,25 @@
+<!--pages/home/courseOne/courseOne.wxml-->
+<view class='container'>
+
+  <view class='content_view'>
+
+    <view class='title_view'>
+      <view class='blue_zone' />
+      <text class='title'>科目一</text>
+    </view>
+    <view class='content_box'>
+      <text class='content' decode='true'>(一)考试内容</text>
+      <text class='content' decode='true'>&emsp;1、道路交通安全法律、法规和规章；</text>
+      <text class='content' decode='true'>&emsp;2、交通信号及其含义；</text>
+      <text class='content' decode='true'>&emsp;3、安全行车、文明驾驶知识；</text>
+      <text class='content' decode='true'>&emsp;4、高速公路、山区道路、桥梁、隧道、夜间、恶劣气象和复杂道路条件下的安全驾驶知识；</text>
+      <text class='content' decode='true'>&emsp;5、出现爆胎、转向失控、制动失灵等紧急情况时的临危处置知识；</text>
+      <text class='content' decode='true'>&emsp;6、机动车总体构造、主要安全装置常识、日常检查和维护基本知识；</text>
+      <text class='content' decode='true'>&emsp;7、发生交通事故后的自救、急救等基本知识，以及常见危险物品知识。</text>
+      <text class='content' decode='true'>（二）合格标准</text>
+      <text class='content' decode='true'>&emsp;满分为100分，成绩达到90分的为合格。</text>
+    </view>
+
+  </view>
+
+</view>

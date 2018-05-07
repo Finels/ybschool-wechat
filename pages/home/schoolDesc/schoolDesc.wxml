@@ -1,0 +1,18 @@
+<!--pages/home/schoolDesc/schoolDesc.wxml-->
+
+
+<view class='container'>
+
+  <view class='content_view'>
+
+    <view class='title_view'>
+      <view class='blue_zone' />
+      <text class='title'>驾校简介</text>
+    </view>
+    <view class='content_box'>
+      <text class='content' decode='true'>&emsp;&emsp; 友邦驾校拥有各型性能良好的车辆提供教学，教练员是通过严格的考核，并持证上岗，属经验丰富、作风正派、有职业道德、责任心强的高级驾驶员执教。始终坚持一次性收费，随到随学原则，如有特殊情况可采取上门服务，学校对行管人员及教练员有一系列之有效的管理制度。不允许对学员以任何名义摊派费用，学校对违章违纪的行为历来奉行严惩不怠的原则，力求给学员一个满意的答复。以雄厚的师资力量、优越的办学条件、成功的办学经验、科学的教学管理、一流的服务质量赢得了广大学员及各界的好评。我们欢迎有志于汽车驾驭的朋友来学校报名学习。</text>
+    </view>
+
+  </view>
+
+</view>

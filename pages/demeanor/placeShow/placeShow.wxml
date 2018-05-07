@@ -1,0 +1,14 @@
+<!--pages/demeanor/placeShow/placeShow.wxml-->
+
+<view class='box'>
+  <view class='placeInfo'>
+    <Swiper imgUrls='{{imgUrls}}' />
+    <view class='address_view'>
+      <text class='address_text'>{{place_address}}</text>
+    </view>
+
+  </view>
+
+
+
+</view>

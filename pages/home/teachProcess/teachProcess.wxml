@@ -1,0 +1,19 @@
+<!--pages/home/teachProcess/teachProcess.wxml-->
+<view class='container'>
+
+  <view class='content_view'>
+
+    <view class='title_view'>
+      <view class='blue_zone' />
+      <text class='title'>教学流程</text>
+    </view>
+    <view class='content_box'>
+      <text class='content' decode='true'>&emsp;&emsp;科目一：理论考试</text>
+      <text class='content' decode='true'>&emsp;&emsp;科目二：小路考</text>
+      <text class='content' decode='true'>&emsp;&emsp;科目三：大路考</text>
+      <text class='content' decode='true'>&emsp;&emsp;科目四：安全文明考试</text>
+    </view>
+
+  </view>
+
+</view>

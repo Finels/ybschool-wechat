@@ -1,0 +1,14 @@
+<!--components/Picker/Picker.wxml-->
+
+<view class="section">
+  <view class="section_title">
+    <image src='{{iconUrl}}' class='image'></image>
+    <text class='title'>{{title}}</text>
+  </view>
+  <picker mode='{{mode}}' value="{{value}}" start="{{start}}" bindchange="changeData" data-index='{{index}}' data-optionsData='{{options}}' range="{{options}}">
+    <view class="picker">
+      当前选择：
+      <text style='{{color}}'>{{content}}</text>
+    </view>
+  </picker>
+</view>
